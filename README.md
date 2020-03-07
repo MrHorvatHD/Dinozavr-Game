@@ -15,6 +15,8 @@ This project recreates the simplified google chrome jumping dinosaur game on 16x
 
 ![ATmega128 setup](./media/Dino1.jpg)
 
+## Game Logic
+
 Game starts on 500ms tick basis and gets progressively faster over time. Each tick cactuses move to the left by 1 tile and score is increased by 1. Tick speed is increased by 2ms each time the game score is divisible by 5.
 
 In the beginning the distance between cactuses is 5 tiles and gets decreased to 4 with score 200 and to 3 with score 400. Double cactuses ignore this limit.
